@@ -1,0 +1,261 @@
+--2022-08-31 13:15:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8002::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  121K 3s
+    50K .......... .......... .......... .......... .......... 22%  177K 2s
+   100K .......... .......... .......... .......... .......... 33%  608K 2s
+   150K .......... .......... .......... .......... .......... 44%  753K 1s
+   200K .......... .......... .......... .......... .......... 56%  266K 1s
+   250K .......... .......... .......... .......... .......... 67% 1.13M 1s
+   300K .......... .......... .......... .......... .......... 78% 1.08M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.25M 0s
+   400K .......... .......... .......... .......... .....     100% 1.37M=1.2s
+
+2022-08-31 13:15:04 (374 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+/usr/lib/postgresql/14/bin/psql: option requires an argument -- 'U'
+Try "psql --help" for more information.
+--2022-08-31 13:16:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8002::154, 2606:50c0:8001::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  121K 3s
+    50K .......... .......... .......... .......... .......... 22%  171K 2s
+   100K .......... .......... .......... .......... .......... 33%  637K 2s
+   150K .......... .......... .......... .......... .......... 44%  729K 1s
+   200K .......... .......... .......... .......... .......... 56%  240K 1s
+   250K .......... .......... .......... .......... .......... 67% 1.02M 1s
+   300K .......... .......... .......... .......... .......... 78% 1.17M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.09M 0s
+   400K .......... .......... .......... .......... .....     100% 1.74M=1.2s
+
+2022-08-31 13:16:03 (364 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+Password for user \COPY covid_deaths from '/home/rafzul/projects/covid-death-data/tmp/deaths.csv' WITH (format csv, header true): 
+psql: error: connection to server at "127.0.0.1", port 5432 failed: fe_sendauth: no password supplied
+--2022-08-31 13:17:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8002::154, 2606:50c0:8000::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  119K 3s
+    50K .......... .......... .......... .......... .......... 22%  171K 2s
+   100K .......... .......... .......... .......... .......... 33%  572K 2s
+   150K .......... .......... .......... .......... .......... 44%  742K 1s
+   200K .......... .......... .......... .......... .......... 56%  265K 1s
+   250K .......... .......... .......... .......... .......... 67%  940K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.09M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.18M 0s
+   400K .......... .......... .......... .......... .....     100% 1.35M=1.2s
+
+2022-08-31 13:17:04 (362 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+Password for user \COPY covid_deaths from '/home/rafzul/projects/covid-death-data/tmp/deaths.csv' WITH (format csv, header true): 
+psql: error: connection to server at "127.0.0.1", port 5432 failed: fe_sendauth: no password supplied
+--2022-08-31 13:18:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8002::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  121K 3s
+    50K .......... .......... .......... .......... .......... 22%  175K 2s
+   100K .......... .......... .......... .......... .......... 33%  582K 2s
+   150K .......... .......... .......... .......... .......... 44%  719K 1s
+   200K .......... .......... .......... .......... .......... 56%  260K 1s
+   250K .......... .......... .......... .......... .......... 67%  962K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.07M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.02M 0s
+   400K .......... .......... .......... .......... .....     100% 1.66M=1.2s
+
+2022-08-31 13:18:04 (365 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+Password for user \COPY covid_deaths from '/home/rafzul/projects/covid-death-data/tmp/deaths.csv' WITH (format csv, header true): 
+psql: error: connection to server at "127.0.0.1", port 5432 failed: fe_sendauth: no password supplied
+--2022-08-31 13:19:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8000::154, 2606:50c0:8002::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  121K 3s
+    50K .......... .......... .......... .......... .......... 22%  177K 2s
+   100K .......... .......... .......... .......... .......... 33%  601K 2s
+   150K .......... .......... .......... .......... .......... 44%  728K 1s
+   200K .......... .......... .......... .......... .......... 56%  270K 1s
+   250K .......... .......... .......... .......... .......... 67%  977K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.15M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.10M 0s
+   400K .......... .......... .......... .......... .....     100% 1.72M=1.2s
+
+2022-08-31 13:19:03 (373 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+Password for user -c: 
+psql: error: connection to server at "127.0.0.1", port 5432 failed: fe_sendauth: no password supplied
+/home/rafzul/projects/covid-death-data/covid_deaths_to_pg.sh: line 3: source: filename argument required
+source: usage: source filename [arguments]
+--2022-08-31 13:20:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8002::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  122K 3s
+    50K .......... .......... .......... .......... .......... 22%  178K 2s
+   100K .......... .......... .......... .......... .......... 33%  608K 2s
+   150K .......... .......... .......... .......... .......... 44%  748K 1s
+   200K .......... .......... .......... .......... .......... 56%  271K 1s
+   250K .......... .......... .......... .......... .......... 67%  981K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.08M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.28M 0s
+   400K .......... .......... .......... .......... .....     100% 1.36M=1.2s
+
+2022-08-31 13:20:04 (374 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+Password for user -c: 
+psql: error: connection to server at "127.0.0.1", port 5432 failed: fe_sendauth: no password supplied
+--2022-08-31 13:21:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8001::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  121K 3s
+    50K .......... .......... .......... .......... .......... 22%  175K 2s
+   100K .......... .......... .......... .......... .......... 33%  591K 2s
+   150K .......... .......... .......... .......... .......... 44%  731K 1s
+   200K .......... .......... .......... .......... .......... 56%  260K 1s
+   250K .......... .......... .......... .......... .......... 67%  940K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.13M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.02M 0s
+   400K .......... .......... .......... .......... .....     100% 1.67M=1.2s
+
+2022-08-31 13:21:04 (367 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:22:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8003::154, 2606:50c0:8002::154, 2606:50c0:8001::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8003::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  122K 3s
+    50K .......... .......... .......... .......... .......... 22%  174K 2s
+   100K .......... .......... .......... .......... .......... 33%  573K 2s
+   150K .......... .......... .......... .......... .......... 44%  714K 1s
+   200K .......... .......... .......... .......... .......... 56%  267K 1s
+   250K .......... .......... .......... .......... .......... 67%  963K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.13M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.04M 0s
+   400K .......... .......... .......... .......... .....     100% 1.65M=1.2s
+
+2022-08-31 13:22:03 (367 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:23:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8002::154, 2606:50c0:8001::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  103K 4s
+    50K .......... .......... .......... .......... .......... 22%  148K 3s
+   100K .......... .......... .......... .......... .......... 33%  357K 2s
+   150K .......... .......... .......... .......... .......... 44%  195K 1s
+   200K .......... .......... .......... .......... .......... 56%  337K 1s
+   250K .......... .......... .......... .......... .......... 67%  252K 1s
+   300K .......... .......... .......... .......... .......... 78%  352K 0s
+   350K .......... .......... .......... .......... .......... 89%  250K 0s
+   400K .......... .......... .......... .......... .....     100%  352K=2.0s
+
+2022-08-31 13:23:05 (218 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:24:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8001::154, 2606:50c0:8002::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  120K 3s
+    50K .......... .......... .......... .......... .......... 22%  177K 2s
+   100K .......... .......... .......... .......... .......... 33%  554K 2s
+   150K .......... .......... .......... .......... .......... 44%  705K 1s
+   200K .......... .......... .......... .......... .......... 56%  264K 1s
+   250K .......... .......... .......... .......... .......... 67%  963K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.06M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.18M 0s
+   400K .......... .......... .......... .......... .....     100% 1.32M=1.2s
+
+2022-08-31 13:24:04 (365 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:25:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8002::154, 2606:50c0:8001::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  118K 3s
+    50K .......... .......... .......... .......... .......... 22%  167K 2s
+   100K .......... .......... .......... .......... .......... 33%  581K 2s
+   150K .......... .......... .......... .......... .......... 44%  737K 1s
+   200K .......... .......... .......... .......... .......... 56%  252K 1s
+   250K .......... .......... .......... .......... .......... 67%  936K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.11M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.00M 0s
+   400K .......... .......... .......... .......... .....     100% 1.64M=1.2s
+
+2022-08-31 13:25:03 (356 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:26:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8003::154, 2606:50c0:8002::154, 2606:50c0:8000::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8003::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  119K 3s
+    50K .......... .......... .......... .......... .......... 22%  179K 2s
+   100K .......... .......... .......... .......... .......... 33%  576K 2s
+   150K .......... .......... .......... .......... .......... 44%  720K 1s
+   200K .......... .......... .......... .......... .......... 56%  265K 1s
+   250K .......... .......... .......... .......... .......... 67%  971K 1s
+   300K .......... .......... .......... .......... .......... 78% 1.05M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.22M 0s
+   400K .......... .......... .......... .......... .....     100% 1.36M=1.2s
+
+2022-08-31 13:26:03 (366 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
+--2022-08-31 13:27:01--  https://raw.githubusercontent.com/nytimes/covid-19-data/master/excess-deaths/deaths.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8003::154, 2606:50c0:8001::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 455725 (445K) [text/plain]
+Saving to: ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’
+
+     0K .......... .......... .......... .......... .......... 11%  120K 3s
+    50K .......... .......... .......... .......... .......... 22%  178K 2s
+   100K .......... .......... .......... .......... .......... 33%  600K 2s
+   150K .......... .......... .......... .......... .......... 44%  760K 1s
+   200K .......... .......... .......... .......... .......... 56%  270K 1s
+   250K .......... .......... .......... .......... .......... 67% 1.01M 1s
+   300K .......... .......... .......... .......... .......... 78% 1.04M 0s
+   350K .......... .......... .......... .......... .......... 89% 1.35M 0s
+   400K .......... .......... .......... .......... .....     100% 1.41M=1.2s
+
+2022-08-31 13:27:04 (373 KB/s) - ‘/home/rafzul/projects/covid-death-data/tmp/deaths.csv’ saved [455725/455725]
+
